@@ -1,0 +1,31 @@
+totalpay = 0
+count = 0
+
+response = input("Do you want to run the program? Yes or No: ")
+
+while response.upper() == "YES":
+    lastname = input("Enter employee's last name: ")
+    hours = float(input("Enter hourly pay rate: "))
+    rate= float(input("Enter hourly pay rate: "))
+
+    ir hours <= 40:
+        grosspay = hours * rate
+    else:
+        regularpay = 40 * rate
+        overtimepay = (hours - 40) * rate * 1.5
+        grosspay = regularpay + overtimepay
+
+    print("Last name:", lastname)
+    print("Gross pay: $", format(grosspay, ".2f"))
+
+    totalpay = totalpay + grosspay
+    count = count + 1
+
+    response = input("Do you want to do this again? Yes or No: ")
+
+print("Total groos pay: $", format(totalpay, ".2f"))
+print("Number of employees:", count)
+
+if count > 0:
+    averagepay + totalpay / count
+    print("Average pay: $", format(averagepay, ".2f))
