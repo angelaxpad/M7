@@ -3,7 +3,7 @@ totaldiscounts = 0
 response = input("Do you want to run the program? Yes or No: ")
 
 while response.upper() == "YES":
-    quantity = int(input("Enter quantity: "}}
+    quantity = int(input("Enter quantity: "))
     price = float(input("Enter price per item: "))
 
     extendedprice = quantity * price
@@ -24,4 +24,4 @@ while response.upper() == "YES":
 
     response = input("Do you want to do this again? Yes or No: ")
 
-print("Sum of all discounts: $", format(totaldiscounts, ".2f))
+print("Sum of all discounts: $", format(totaldiscounts, ".2f"))
