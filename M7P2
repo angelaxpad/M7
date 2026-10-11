@@ -1,0 +1,13 @@
+start = int(input("Enter start value: "))
+stop = int(input("Enter stop value: "))
+increment + int(input("Enter increment value: "))
+
+while increment <= 0:
+    print("Increment must be greater than zero.")
+    increment = int(input("Enter increment value: "))
+
+number = start 
+
+while number <= stop:
+    print(number)
+    number = number + increment
