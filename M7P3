@@ -1,6 +1,6 @@
 count = 0
 
-response = input("Do you want to return the program? Yes or No:)
+response = input("Do you want to return the program? Yes or No: ")
 
 while response.upper() == "YES":
     lastname = input("Enter student's last name: ")
