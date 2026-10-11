@@ -1,6 +1,6 @@
 start = int(input("Enter start value: "))
 stop = int(input("Enter stop value: "))
-increment + int(input("Enter increment value: "))
+increment = int(input("Enter increment value: "))
 
 while increment <= 0:
     print("Increment must be greater than zero.")
